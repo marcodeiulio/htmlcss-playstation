@@ -10,3 +10,9 @@ img {
 	max-height: 100%;
 	max-width: 100%;
 }
+
+/* Header */
+
+header nav .chevron-down a img {
+	width: 10px;
+}
