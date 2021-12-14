@@ -15,6 +15,7 @@
 <!-- 
 	TO-DOs
 	- Fix #upper-header: the logo must keep its size
+	- Header is fixed, so the content below must start from a certain height
 -->
 
 <body>
@@ -71,19 +72,22 @@
 			</div>
 		</nav>
 	</header>
-	<!-- <section class="jumbotron-big text-white p-1">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-8 mb-5">
+	<section class="jumbotron-big text-white p-1">
+		<div class="container-fluid h-100 py-5 px-2">
+			<div class="row h-100 flex-column justify-content-end align-items-start gy-3">
+				<div class="col-8">
 					<img src="./img/returnal-hero-banner-logo.png" alt="Returnal Logo">
 				</div>
-			</div>
-			<div class="row">
-				<h2 class="display-5 fw-bold">Rompi il cerchio</h2>
-				<p class="fs-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio repellat quidem reiciendis unde aliquid repudiandae deleniti! Labore recusandae animi, magnam ducimus vitae architecto aut voluptatibus veritatis temporibus accusamus ullam nulla.</p>
+				<div class="col-auto py-3">
+					<h2 class="display-2">Rompi il cerchio</h2>
+				</div>
+				<div class="col-auto">
+					<p class="fs-5"> Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo esplosivo thriller fantascientifico, disponibile in esclusiva su PS5.</p>
+				</div>
+				<div class="col-auto"><a href="#" class="btn btn-danger rounded-pill">Acquista ora</a></div>
 			</div>
 		</div>
-	</section> -->
+	</section>
 </body>
 
 </html>

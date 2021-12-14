@@ -23,13 +23,9 @@ header nav .chevron-down a img {
 
 /* Jumbotrons */
 
-/* .jumbotron-big h2 img {
-	width: 50%;
-}
-
 .jumbotron-big {
 	background-image: url(../img/jumbo-bg.png);
 	background-size: cover;
-	
+	background-position: center;
 	height: 700px;
-} */
+}
