@@ -22,18 +22,22 @@ img {
 	max-width: 100%;
 }
 
-:root {
-	--bg-l-grey: #bebcbb;
-}
-
 /* Utilities */
+
+.w-40 {
+	width: 40%;
+}
 
 .more-rounded {
 	border-radius: 20px;
 }
 
 .bg-l-grey {
-	background-color: var(--bg-l-grey);
+	background-color: #bebcbb;
+}
+
+.bg-d-blue {
+	background-color: #161c3b;
 }
 
 /* Header */
@@ -65,6 +69,9 @@ header nav .chevron-down a img {
 	background-position: center;
 }
 
-.w-40 {
-	width: 40%;
+#ps-now .banner{
+	background-image: url(../img/ps-now-april-featured-image-block.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
 }
