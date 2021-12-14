@@ -24,6 +24,18 @@ img {
 
 /* Utilities */
 
+.w-20px {
+	width: 20px;
+}
+
+.w-100px {
+	width: 100px;
+}
+
+.w-30 {
+	width: 30%;
+}
+
 .w-40 {
 	width: 40%;
 }
@@ -38,6 +50,10 @@ img {
 
 .bg-d-blue {
 	background-color: #161c3b;
+}
+
+.bg-ps-blue {
+	background-color: #00439c;
 }
 
 /* Header */
