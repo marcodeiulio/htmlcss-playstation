@@ -22,10 +22,18 @@ img {
 	max-width: 100%;
 }
 
+:root {
+	--bg-l-grey: #bebcbb;
+}
+
 /* Utilities */
 
 .more-rounded {
 	border-radius: 20px;
+}
+
+.bg-l-grey {
+	background-color: var(--bg-l-grey);
 }
 
 /* Header */
@@ -48,4 +56,15 @@ header nav .chevron-down a img {
 	background-size: cover;
 	background-position: center;
 	height: 800px;
+}
+
+#ps-plus .banner {
+	background-image: url(../img/ps-plus-april-monthly-games-featured-image-block.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.w-40 {
+	width: 40%;
 }
