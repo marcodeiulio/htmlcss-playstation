@@ -30,11 +30,18 @@ header nav .chevron-down a img {
 
 /* Jumbotrons */
 
-.jumbotron-big {
+#returnal.jumbotron-big {
 	background-image: url(../img/jumbo-bg.png);
 	background-size: cover;
 	background-position: center;
 	height: 700px;
+}
+
+#it-takes-two.jumbotron-big {
+	background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 800px;
 }
 
 /* #ps5-game-list */
