@@ -6,6 +6,10 @@
 	box-sizing: border-box;
 }
 
+body {
+	margin-top: 135px;
+}
+
 img {
 	max-height: 100%;
 	max-width: 100%;
@@ -16,3 +20,16 @@ img {
 header nav .chevron-down a img {
 	width: 10px;
 }
+
+/* Jumbotrons */
+
+/* .jumbotron-big h2 img {
+	width: 50%;
+}
+
+.jumbotron-big {
+	background-image: url(../img/jumbo-bg.png);
+	background-size: cover;
+	
+	height: 700px;
+} */
