@@ -56,6 +56,12 @@ img {
 	background-color: #00439c;
 }
 
+.active-border {
+	border-color: transparent;
+	border-radius: 0;
+	border-bottom: 2px solid #2787d5;
+}
+
 /* Header */
 
 header nav .chevron-down a img {
