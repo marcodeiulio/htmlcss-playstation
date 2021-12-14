@@ -49,3 +49,7 @@ header nav .chevron-down a img {
 #ps5-game-list .card img {
 	border-radius: 20px;
 }
+
+.more-rounded {
+	border-radius: 20px;
+}
