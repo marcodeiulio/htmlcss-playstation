@@ -29,3 +29,9 @@ header nav .chevron-down a img {
 	background-position: center;
 	height: 700px;
 }
+
+/* #ps5-game-list */
+
+#ps5-game-list .card img {
+	border-radius: 20px;
+}
