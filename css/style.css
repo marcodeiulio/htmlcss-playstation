@@ -121,6 +121,18 @@ img {
 	box-shadow: inset 0 0 0 2px black, 0 0 0 1px #f8f9fa;
 }
 
+.rounded-trans {
+	border-radius: 10px;
+	scale: 1;
+	transition: scale .5s, border-radius .5s;
+}
+
+.rounded-trans:hover {
+	scale: 1.08;
+	border-radius: 50px;
+	transition: scale .5s, border-radius .5s;
+}
+
 /* HEADER */
 
 header nav .chevron-down a img {
