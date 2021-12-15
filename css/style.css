@@ -59,13 +59,13 @@ img {
 	border-bottom: 2px solid #2787d5;
 }
 
-/* Header */
+/* HEADER */
 
 header nav .chevron-down a img {
 	width: 10px;
 }
 
-/* Jumbotrons */
+/* JUMBOTRONS */
 
 .jumbo-big {
 	background-size: cover;
