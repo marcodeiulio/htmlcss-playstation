@@ -89,6 +89,14 @@ img {
 	transition: bottom .5s;
 }
 
+.text-decoration-trans {
+	text-decoration: none;
+}
+
+.text-decoration-trans:hover {
+	text-decoration: underline;
+}
+
 /* HEADER */
 
 header nav .chevron-down a img {
