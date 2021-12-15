@@ -59,6 +59,14 @@ img {
 	border-bottom: 2px solid #2787d5;
 }
 
+.trans-black {
+	color: grey;
+}
+
+.trans-black:hover {
+	color: black;
+}
+
 /* HEADER */
 
 header nav .chevron-down a img {
