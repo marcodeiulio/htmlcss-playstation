@@ -59,6 +59,15 @@ img {
 	border-bottom: 2px solid #2787d5;
 }
 
+.active-border-trans {
+	opacity: 75%;
+}
+
+.active-border-trans:hover {
+	border-bottom: 2px solid #2787d5;
+	opacity: 100%;
+}
+
 .trans-black {
 	color: grey;
 }
