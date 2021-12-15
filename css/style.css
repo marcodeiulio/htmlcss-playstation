@@ -74,7 +74,7 @@ header nav .chevron-down a img {
 
 /* Jumbotrons */
 
-.jumbotron-big {
+.jumbo-big {
 	background-size: cover;
 	background-position: center;
 }
@@ -89,16 +89,26 @@ header nav .chevron-down a img {
 	padding-top: 250px;
 }
 
-#ps-plus .banner {
-	background-image: url(../img/ps-plus-april-monthly-games-featured-image-block.png);
+.jumbo-small {
 	background-size: contain;
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: right;
 }
 
-#ps-now .banner{
+#ps-plus .jumbo-small{
+	background-image: url(../img/ps-plus-april-monthly-games-featured-image-block.png);
+}
+
+#ps-now .jumbo-small {
 	background-image: url(../img/ps-now-april-featured-image-block.png);
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: center;
+}
+
+@media screen and (max-width: 767px) {
+	#ps-plus .jumbo-small{
+		background-image: none;
+	}
+
+	#ps-now .jumbo-small{
+		background-image: none;
+	}
 }
