@@ -37,6 +37,10 @@ img {
 	height: 15px;
 }
 
+.fs-12px {
+	font-size: 12px;
+}
+
 .more-rounded {
 	border-radius: 20px;
 }
