@@ -97,6 +97,10 @@ img {
 	text-decoration: underline;
 }
 
+.btn-trans:hover {
+	box-shadow: inset 0 0 0 2px white, 0 0 0 1px black;
+}
+
 /* HEADER */
 
 header nav .chevron-down a img {
