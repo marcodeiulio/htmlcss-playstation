@@ -97,8 +97,20 @@ img {
 	text-decoration: underline;
 }
 
-.btn-trans:hover {
+.btn-trans-black:hover {
 	box-shadow: inset 0 0 0 2px white, 0 0 0 1px black;
+}
+
+.btn-trans-red:hover {
+	box-shadow: inset 0 0 0 2px black, 0 0 0 1px #dc3545;
+}
+
+.btn-trans-blue:hover {
+	box-shadow: inset 0 0 0 2px white, 0 0 0 1px #0d6efd;
+}
+
+.btn-trans-white:hover {
+	box-shadow: inset 0 0 0 2px #0d6efd, 0 0 0 1px #f8f9fa;
 }
 
 /* HEADER */
