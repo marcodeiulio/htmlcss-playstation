@@ -74,18 +74,19 @@ header nav .chevron-down a img {
 
 /* Jumbotrons */
 
-#returnal.jumbotron-big {
-	background-image: url(../img/jumbo-bg.png);
+.jumbotron-big {
 	background-size: cover;
 	background-position: center;
-	height: 700px;
 }
 
-#it-takes-two.jumbotron-big {
+#returnal {
+	background-image: url(../img/jumbo-bg.png);
+	padding-top: 300px;
+}
+
+#it-takes-two {
 	background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
-	background-size: cover;
-	background-position: center;
-	height: 800px;
+	padding-top: 250px;
 }
 
 #ps-plus .banner {
