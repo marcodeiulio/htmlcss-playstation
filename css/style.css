@@ -146,12 +146,12 @@ header nav .chevron-down a img {
 	background-position: center;
 }
 
-#returnal {
+#jumbotron-main {
 	background-image: url(../img/jumbo-bg.png);
 	padding-top: 200px;
 }
 
-#it-takes-two {
+#jumbotron-new-releases {
 	background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 	padding-top: 100px;
 }
